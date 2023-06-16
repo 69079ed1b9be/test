@@ -7,4 +7,8 @@ app.get('/', (req, res) => {
   res.send('hallo wereld!');
 })
 
+app.listen(80, () => {
+  console.log('app listening!');
+}))
+
 console.log(a + b);
