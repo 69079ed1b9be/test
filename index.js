@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
 
 app.listen(80, () => {
   console.log('app listening!');
-}))
+})
 
 console.log(a + b);
